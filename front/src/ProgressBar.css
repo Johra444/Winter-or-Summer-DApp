@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    padding: 2vw 10%;
+    display: flex;
+}
+.head{
+    text-align: center;
+}
+.image-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.image{
+    
+    margin-top: 40px;
+}
+.ul-container{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    height: 80%;
+    position: relative;
+    left: 91px;
+
+}
+ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 120%;
+}
+
+ul li .text{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    text-align: start;
+    padding-left: 20px;
+}
+
+ul li .relative{
+    position: relative;
+    right: 205px;
+    text-align: end;
+}
+
+/* Progress Div Css  */
+
+ul li .progress{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #6393F2;
+    
+    margin: 14px 0;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    position: relative;
+}
+.progress::after{
+    content: " ";
+    position: absolute;
+    width: 16PX;
+    background-color: #6393F2;
+    right: 30px;
+    height: 80px;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+.one::after{
+    width: 0;
+    height: 0;
+    
+}
+ul li .progress .uil{
+    display: none;
+    margin: 0 30px;
+}
+ul li .progress p{
+    font-size: 13px;
+}
+
+/* Active Css  */
+
+
+
+/* Responsive Css  */
+
+@media (max-width: 1300px) {
+    .main{
+        padding: 3vh 0px 3vh 0;
+    }
+    
+}
+
+@media (max-width:900px) {
+    .main{
+        display: inline;
+    }
+    .image-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .ul-container{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .progress::after{
+        height: 60px;
+    }
+    .image{
+        max-width: 100%;
+    }
+}
+
