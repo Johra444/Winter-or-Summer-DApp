@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Winter-or-Summer-DApp/static/css/main.25ee0108.css",
+    "main.js": "/Winter-or-Summer-DApp/static/js/main.2256a2d7.js",
+    "static/media/cccc.png": "/Winter-or-Summer-DApp/static/media/cccc.6984fecb5651d92cad8a.png",
+    "index.html": "/Winter-or-Summer-DApp/index.html",
+    "main.25ee0108.css.map": "/Winter-or-Summer-DApp/static/css/main.25ee0108.css.map",
+    "main.2256a2d7.js.map": "/Winter-or-Summer-DApp/static/js/main.2256a2d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25ee0108.css",
+    "static/js/main.2256a2d7.js"
+  ]
+}
