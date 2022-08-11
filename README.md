@@ -6,4 +6,4 @@ This is the first DApp I did, everything is explained on the website, it is host
 
 https://johra444.github.io/Winter-or-Summer-DApp/
 
-Feel free to give me advice
+Feel free to give me advice, my twitter is @JohraDev
